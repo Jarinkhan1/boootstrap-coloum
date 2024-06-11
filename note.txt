@@ -1,0 +1,11 @@
+<section class="service">
+<div class="container mt-5 bg-success">
+  <div class="row justify-content-center align-items-center h_300">
+
+    <div class="col-lg-2">
+      <div class="box"></div>
+    </div>
+
+  </div>
+</div>
+</section>

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 5 Colums</title>
+        <!-- css links -->
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">                                 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+   </head>
+   
+   <body class="p-3 m-0 border-0 bd-example m-0 border-0 bd-example-row bd-example-row-flex-cols">
+
+    <div class="container mb-5 text-center">
+  <div class="row">
+    <div class="col align-self-start">
+      One of three columns
+    </div>
+    <div class="col align-self-center">
+      One of three columns
+    </div>
+    <div class="col align-self-end">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+  
+<div class="container text-center">
+  <div class="row align-items-center">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-5 text-center">
+  <div class="row align-items-end">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5 text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-9">.col-9</div>
+    <div class="col-4">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+    <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
+  </div>
+</div>
+
+<div class="container mt-5 text-center">
+  <div class="row">
+    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+
+    <!-- Force next columns to break to new line at md breakpoint and up -->
+    <div class="w-100 d-none d-md-block"></div>
+
+    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+  </div>
+</div>
+
+<div class="container mt-5 text-center">
+  <div class="row">
+    <div class="col order-last">
+      First in DOM, ordered last
+    </div>
+    <div class="col">
+      Second in DOM, unordered
+    </div>
+    <div class="col order-first">
+      Third in DOM, ordered first
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5 text-center">
+  <div class="row">
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+    <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+  </div>
+</div>
+
+
+<!-- script links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+   
+   </body>
+   </html>
